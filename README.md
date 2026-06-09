@@ -63,6 +63,38 @@ You can install it on a GPU machine using:
 	- [**training set**](https://github.com/jone-Wu/LSP-SAM2_v2/blob/main/data/davis_2017_train.txt) & [**validation set**](https://github.com/jone-Wu/LSP-SAM2_v2/blob/main/data/davis_2017_val.txt)
 - We gratefully acknowledge the publicly available datasets from the two articles that enabled this work.
 
+**Directory Structure:**
+
+	LSP-SAM2_v2/DAVIS-2017-trainval-480p/
+	|-- DAVIS/
+	|	|-- ImageSets/
+	|	|	|-- 2017/
+	|	|	|	|-- train.txt (./data/davis_2017_train.txt)
+	|	|	|	|-- val.txt (./data/davis_2017_val.txt)
+	|	|-- Annotations/
+	|	|	|-- 480p
+	|	|	|	|-- bear(video_name)
+	|	|	|	|	|-- 00000.png
+	|	|	|	|	|-- ...
+	|	|-- JPEGImages/
+	|	|	|-- 480p
+	|	|	|	|-- bear(video_name)
+	|	|	|	|	|-- 00000.jpg
+	|	|	|	|	|-- ...
+
+	LSP-SAM2_v2/mose2023/
+	|-- train.txt(.data/mose_long_train.txt)
+	|-- val.txt(.data/mose_long_val.txt)
+	|	|-- train/
+	|	|	|-- Annotations/
+	|	|	|	|-- ad1881d1(video_name)
+	|	|	|	|	|-- 00000.png
+	|	|	|	|	|-- ...
+	|	|	|-- JPEGImages/
+	|	|	|	|-- ad1881d1(video_name)
+	|	|	|	|	|-- 00000.jpg
+	|	|	|	|	|-- ...
+
 ## Evaluation
 You can run the `./eval/valid_LSP_SAM2_v6_final.py` according to the following configuration:
 
