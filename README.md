@@ -18,11 +18,11 @@ A Lightweight Self-Prompting SAM2 Model for Robust Video Object Segmentation.
 	- **End-to-end training** optimizes TMP’s box prompts for segmentation, not just spatial accuracy—unlike conventional decoupled methods.
 	- LSP-SAM2: +**12.21%** *J&F* score over SAM2 on hard videos, meanwhile matching its performance on easy videos.
 
-Visualization Demo:
+## Visualization Demo:
 
 https://github.com/user-attachments/assets/80a7e0f1-0743-4590-a25a-2fd4f12ed152.mp4
 
-![visualization_video2](./figs/visualization2.mp4)
+https://github.com/user-attachments/assets/f634d4a1-1964-41a9-9a1e-336c12933bf6.mp4
 
 ## Getting Started
 ### Installation
