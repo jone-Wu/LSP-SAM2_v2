@@ -61,7 +61,6 @@ You can install it on a GPU machine using:
 - DAVIS 2017 ([Paper](https://arxiv.org/pdf/1704.00675))([Data_avaliable](https://davischallenge.org/))
 	- Our model uses the original settings of the DAVIS 2017 Semi superviced dataset.
 	- [**training set**](https://github.com/jone-Wu/LSP-SAM2_v2/blob/main/data/davis_2017_train.txt) & [**validation set**](https://github.com/jone-Wu/LSP-SAM2_v2/blob/main/data/davis_2017_val.txt)
-- We gratefully acknowledge the publicly available datasets from the two articles that enabled this work.
 
 **Directory Structure:**
 
@@ -126,3 +125,7 @@ You can run the `./eval/valid_LSP_SAM2_v6_final.py` according to the following c
 	0.4
 	--backtrack_range
 	3
+
+
+## Acknowledgements
+- We gratefully acknowledge the publicly available code & datasets from the articles ([SAM2](https://github.com/facebookresearch/sam2), [DAVIS](https://arxiv.org/pdf/1704.00675), [MOSE](https://openaccess.thecvf.com/content/ICCV2023/papers/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.pdf)) that enabled this work.
