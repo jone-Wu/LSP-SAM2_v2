@@ -20,7 +20,7 @@ A Lightweight Self-Prompting SAM2 Model for Robust Video Object Segmentation.
 
 Visualization Demo:
 
-https://github.com/jone-Wu/LSP-SAM2_v2/issues/1#issue-4618607049.mp4
+https://github.com/user-attachments/assets/80a7e0f1-0743-4590-a25a-2fd4f12ed152.mp4
 
 ![visualization_video2](./figs/visualization2.mp4)
 
