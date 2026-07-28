@@ -1,5 +1,5 @@
 # LSP-SAM2_v2
-A Lightweight Self-Prompting SAM2 Model for Robust Video Object Segmentation.
+An Automatous Lightweight Self-prompting Segment Anything Model for Video Object Segmentation.
 
 <img width="3858" height="1567" alt="Image" src="https://github.com/user-attachments/assets/0eb83640-1229-4185-a6c5-7931270216f6" />
 
@@ -13,12 +13,12 @@ A Lightweight Self-Prompting SAM2 Model for Robust Video Object Segmentation.
     - In **challenging** segmentation scenarios, SAM2 still relies on manual prompts or decoupled self-prompting methods that require complex feature extraction, severely limiting its practical applicability.
 
 - Proposed Solution: 
-	- **LSP-SAM2**: more efficient self-prompting model for fully automatic VOS, without additional feature extraction.
+	- **AtLS-SAM2**: more efficient self-prompting model for fully automatic VOS, without additional feature extraction.
 
 	- **Two-way Multi-scale box Predictor (TMP)** fuses SAM2’s multi-scale features with temporal sampling, robust to object variations.
 
 	- **End-to-end training** optimizes TMP’s box prompts for segmentation, not just spatial accuracy—unlike conventional decoupled methods.
-	- LSP-SAM2: +**12.21%** *J&F* score over SAM2 on hard videos, meanwhile matching its performance on easy videos.
+	- AtLS-SAM2: +**12.21%** *J&F* score over SAM2 on hard videos, meanwhile matching its performance on easy videos.
 
 ## Visualization Demo:
 
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/f634d4a1-1964-41a9-9a1e-336c12933bf6.
 
 ## Getting Started
 ### Installation
-   LSP-SAM2 needs to be installed first before use. The code requires `python>=3.10`, as well as `torch>=2.3.1` and `torchvision>=0.18.1`.
+   AtLS-SAM2 needs to be installed first before use. The code requires `python>=3.10`, as well as `torch>=2.3.1` and `torchvision>=0.18.1`.
 
 You can install it on a GPU machine using:
 
